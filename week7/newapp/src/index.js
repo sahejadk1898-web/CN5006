@@ -4,14 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Hook_ControlledButtonState from '../../newapp/src/counter'
-
-import EmojeeCounter from '../../newapp/src/EmojeeCounters'
-
-
+import EmojeeCounter from './EmojeeCounters';
 const root = ReactDOM.createRoot(document.getElementById('root'));
- root.render(
+root.render(
   <React.StrictMode>
-    <Hook_ControlledButtonState />
+     <Hook_ControlledButtonState />
     <EmojeeCounter pic='love'/>
     <EmojeeCounter pic='sad'/>
     <EmojeeCounter pic='happy'/>
