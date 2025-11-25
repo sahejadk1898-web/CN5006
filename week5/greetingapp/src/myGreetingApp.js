@@ -1,4 +1,4 @@
-import './App.css';
+import '/App.css';
 function GreetingElement() {
     const greeting = 'Hello Lets start learning function Component...';
     return (

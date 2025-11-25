@@ -5,13 +5,20 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import GreetingElement from './myGreetingApp'
 import GreetingElementwithProp from './Greetingprop'
+import AppColor from './Appbackgroundcolor'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    
     <GreetingElement/>
     <GreetingElementwithProp msg= 'Hi from the prop1'/>
+    <AppColor heading="This is first element" lbl=
+"Name :" color="green"/>
+ <AppColor heading="This is second element" lbl
+="Name :" color="blue"/>
+ <AppColor heading="This is third third element
+" lbl="Name :" color="Yellow"/>
 
 
   </React.StrictMode>
