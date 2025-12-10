@@ -11,6 +11,7 @@ async function connectDB() {
  process.exit(1);
  }
 }
+connectDB()
 // Optional: Handle connection events
 mongoose.connection.on('disconnected', () => {
  console.log(' MongoDB disconnected');

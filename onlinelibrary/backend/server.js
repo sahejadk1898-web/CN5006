@@ -1,9 +1,9 @@
 //this code runs with mongoose v7 plus
 var express = require("express")
 const { default: mongoose } = require("mongoose")
-let Books = require('./booksSchema')
+let Books = require('./schema')
 //let mongodbConnected=require('./MongodbConnect')
-const connectDB = require('./MongodbConnect').default;
+const connectDB = require('./connection').default;
 const cors = require('cors');
 console.log("Server2k25")
 var app =express()
